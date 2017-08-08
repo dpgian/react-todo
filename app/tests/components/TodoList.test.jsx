@@ -11,7 +11,7 @@ describe('TodoList', () => {
   it('should exist', () => {
     expect(TodoList).toExist();
   });
-
+  
   it('should render one Todo component for each Todo item', () => {
     var todos = [{
       id: 1,
