@@ -12,11 +12,19 @@ export var addTodo = (text) => {
   };
 };
 
+export var addOldTodos = (todos) => {
+  return {
+    type: 'ADD_OLD_TODOS',
+    todos
+  }
+};
+
 export var toggleShowCompleted = () => {
   return {
     type: 'TOGGLE_SHOW_COMPLETED'
   };
 };
+
 
 export var toggleTodo = (id) => {
   return {
